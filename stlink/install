@@ -1,0 +1,3 @@
+dpkg -i libusb-1.0-0_1.0.22-2_amd64.deb
+dpkg -i libstlink1_1.5.0+ds-2_amd64.deb
+dpkg -i stlink-tools_1.5.0+ds-2_amd64.deb

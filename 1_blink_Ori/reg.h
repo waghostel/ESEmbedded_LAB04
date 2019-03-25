@@ -13,7 +13,8 @@
 */
 
 //shift bit bit 數
-#define SET_BIT(addr, bit) (REG(addr) |= UINT32_1 << (bit)) //Set 特定bit的macro
+#define SET_BIT(addr, bit) (REG(addr) |= UINT32_1 << (bit)) 
+//Set 特定bit的macro
 /*
 UINT32_1 << (bit) : 將(uint32_t)1 shift bit個bit  ex: 00001-> 00100
 |= :取or運算
